@@ -18,7 +18,7 @@ Output: 0*/
 
 
 
-
+class solution{
 public int threeSumClosest(int[] nums, int target) {
         int rL = -10000;
         int rU = 10000;
@@ -46,3 +46,4 @@ public int threeSumClosest(int[] nums, int target) {
             return rL;
         }
     }
+}
